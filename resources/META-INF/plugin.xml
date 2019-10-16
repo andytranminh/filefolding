@@ -1,0 +1,20 @@
+<idea-plugin>
+  <id>com.xmen.plugin.fold</id>
+  <name>File Folding</name>
+  <version>1.0.0</version>
+
+  <description></description>
+
+  <change-notes></change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="145.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.lang</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <treeStructureProvider implementation="com.xmen.plugin.fold.TreeStructureProvider"/>
+  </extensions>
+
+</idea-plugin>
