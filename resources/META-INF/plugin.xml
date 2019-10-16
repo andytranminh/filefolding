@@ -2,7 +2,15 @@
   <id>com.xmen.plugin.fold</id>
   <name>File Folding</name>
   <version>1.0.0</version>
+<description><![CDATA[
+      This plugin groups files which have same name and different extensions.<br>
+      For instance, app.component.ts, app.component.css, app.component.html, app.component.spec.ts will be grouped a virtual folder named app.component.
+    ]]></description>
 
+  <change-notes><![CDATA[
+    Added 'directive' as a group key.
+    ]]>
+  </change-notes>
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
   <idea-version since-build="145.0"/>
 
